@@ -16,6 +16,22 @@ npm start
 npx react-native run-android
 ```
 
+## VS Code Extensions
+- ES7 React
+    - ![es-7-react](./image-ss/es-7-react.png)
+- Prettier Code Formatter
+    - ![pretier](./image-ss/Prettier.png)
+- Bracket Pair Colorizer
+    - ![bracket colorize](./image-ss/Bracket-pair.png)
+- Color Highlight
+    - ![color-hightligth](./image-ss/color-highlight.png)
+- Path Intellisense
+    - ![path intellisense](./image-ss/path-intel.png)
+- Code Time 
+    - ![code time](./image-ss/code-time.png)
+- Gitlense
+    - ![git lense](./image-ss/gitlense.png)
+
 ## Debugging
 - facing error
     - ![react-eror](./image-ss/react-error.jpeg)
