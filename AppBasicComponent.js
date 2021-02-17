@@ -1,10 +1,17 @@
 import React from 'react';
 import {Image, ScrollView, Text, TextInput, View} from 'react-native'
-import {AppBasic} from './AppBasicComponent'
-const App = () => {
+
+const AppBasic = () => {
   return (
     <View>
-      <AppBasic></AppBasic>
+      <View
+      style={{width:80, height: 80, backgroundColor: '#81ecec'}}
+      ></View>
+      <ComponentTobil></ComponentTobil>
+      <Photo></Photo>
+      <TextInput style={{borderWidth: 1}}>
+
+      </TextInput>
     </View>
   )
 };
@@ -30,4 +37,4 @@ const Photo = () => {
   );
 }
 
-export default App;
+export default AppBasic;
