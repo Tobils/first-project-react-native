@@ -42,6 +42,9 @@ npx react-native run-android
 
 - product list scroll view horizontal
     - ![product list](./image-ss/product-list.jpeg)
+
+- FlexBox
+    - ![flexbox](./image-ss/flex.jpeg)
 ## Result
 - init project
     - ![init project](./image-ss/init-project.png)
