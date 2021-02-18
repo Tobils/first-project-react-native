@@ -40,9 +40,13 @@ npx react-native run-android
 - First Pproject App
     - ![react-first-screen](./image-ss/react-first-homecreen.jpeg)
 
+- product list scroll view horizontal
+    - ![product list](./image-ss/product-list.jpeg)
 ## Result
 - init project
     - ![init project](./image-ss/init-project.png)
+
+
 
 ## Reference
 - [react-nativ-documentation](https://reactnative.dev/)
