@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {Image, ScrollView, StyleSheet, Text, TextInput, View} from 'react-native'
-import jam from './image-ss/image-watch.jpg'
+import jam from '../../assets/images/image-watch.jpg'
 
 
-const ProductComponent = () => {
+const ProductList = () => {
     return(
       <View style={style.card}>
         <Image
@@ -71,4 +71,4 @@ const style = StyleSheet.create({
 });
   
 
-export default ProductComponent;
+export default ProductList;

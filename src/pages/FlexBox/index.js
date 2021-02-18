@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { ScrollView, StyleSheet, Text, TextInput, View, Image} from 'react-native';
-import ProfileComponent from './ProfileComponent'
 
 class FlexBox extends Component {
     render(){
@@ -15,11 +14,6 @@ class FlexBox extends Component {
                     <View style={{ backgroundColor: '#2d3436', width: 50, height: 50 }}></View>
                     <View style={{ backgroundColor: '#e84393', width: 50, height: 50 }}></View>
                 </View>
-                <Text style={style.title}>FlexBox Layouting Profile</Text>
-                <ProfileComponent></ProfileComponent>
-                <ProfileComponent></ProfileComponent>
-                <ProfileComponent></ProfileComponent>
-                <ProfileComponent></ProfileComponent>
             </View>
         );
     }
@@ -35,9 +29,9 @@ const style = StyleSheet.create({
     },
     orientation: {
         flexDirection: 'row',
-        alignItems:'flex-end',
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
+        marginVertical: 20
     }
 })
 
