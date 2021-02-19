@@ -7,6 +7,7 @@ import ProfileList from './pages/ProfileList'
 // import BottomNav from './pages/BottomNav'
 import  PropsDinamis from './pages/PropsDinamis'
 import StateDinamis from './pages/StateDinamis'
+import Communication from './pages/Communication'
 
 const App = () => {
   const [isShow, SetIsShow] = useState(true);
@@ -61,8 +62,8 @@ const App = () => {
 
 
       <View>
-        <Text style={style.title}>Communication</Text> 
-
+        <Text style={style.title}>Communication Components</Text> 
+        <Communication/>
       </View>
 
     </ScrollView>
