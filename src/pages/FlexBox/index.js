@@ -1,11 +1,56 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import { ScrollView, StyleSheet, Text, TextInput, View, Image} from 'react-native';
 
 class FlexBox extends Component {
+
+    /**
+     * 1. pertama kali di eksekusi
+     * @param {*} props 
+     */
+    constructor(props){
+        super(props);
+        this.state = {
+            title: 'FlexBox Layouting Item'
+        }
+        console.log("=====> constructor");
+    }
+
+    /**
+     * 3. diseksekusi setelah render
+     */
+    componentDidMount(){
+        console.log("=====> did mount");
+
+        setTimeout(()=> {
+            this.setState({
+                title: "Flexbox"
+            })
+        }, 2000)
+    }
+
+    /**
+     * di eksekusi saat terjadi perbuahan state
+     */
+    componentDidUpdate(){
+        console.log("=====> did update");
+    }
+
+    /**
+     * di eksekusi saat halaman di unmount
+     */
+    componentWillUnmount(){
+        console.log("=====> will unmount");
+    }
+
+    /**
+     * 2. di eksekusi tepat setelah constructoor
+     */
     render(){
+        console.log("=====> render");
+
         return (
             <View>
-                <Text style={style.title}>FlexBox Layouting Item</Text>
+                <Text style={style.title}>{this.state.title}</Text>
                 <View style={style.orientation}>
                     <View style={{ backgroundColor: '#fd79a8', width: 50, height: 50 }}></View>
                     <View style={{ backgroundColor: '#6c5ce7', width: 50, height: 50 }}></View>

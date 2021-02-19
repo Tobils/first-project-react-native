@@ -14,6 +14,10 @@ npm start
 
 # upload on your devices
 npx react-native run-android
+
+# debugger
+handshake your phone and select debug
+automatically wll open your browser, and select console
 ```
 
 ## VS Code Extensions

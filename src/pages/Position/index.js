@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
         height: 50
     },
     cartWrapper: {
-        borderWidth: 1,
+        borderWidth: 2,
         borderColor: '#636e72',
         width: 93,
         height: 93,
